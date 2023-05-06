@@ -137,7 +137,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	Name.BackgroundTransparency = 1.000
 	Name.Position = UDim2.new(0.0609756112, 0, 0, 0)
 	Name.Size = UDim2.new(0, 61, 0, 27)
-	Name.Font = Enum.Font.Kalam
+	Name.Font = Enum.Font.LuckiestGuy
 	Name.Text = hubname
 	Name.TextColor3 = Color3.fromRGB(147,112,219)
 	Name.TextSize = 17.000
