@@ -101,7 +101,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	Main.Parent = Darkrai
 	Main.ClipsDescendants = true
 	Main.AnchorPoint = Vector2.new(0.5,0.5)
-	Main.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+	Main.BackgroundColor3 = Color3.fromRGB(0,0,0)
 	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Main.Size = UDim2.new(0, 0, 0, 0)
 	
@@ -124,7 +124,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	local Logo = Instance.new("ImageLabel")
 	Logo.Name = "Logo"
 	Logo.Parent = Top
-	Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Logo.BackgroundColor3 = Color3.fromRGB(0,0,0)
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0, 10, 0, 1)
 	Logo.Size = UDim2.new(0, 25, 0, 25)
@@ -164,13 +164,13 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	BindButton.Size = UDim2.new(0, 100, 0, 27)
 	BindButton.Font = Enum.Font.PatrickHand
 	BindButton.Text = "[Left Control]"
-	BindButton.TextColor3 = Color3.fromRGB(147,112,219)
+	BindButton.TextColor3 = Color3.fromRGB(255,255,255)
 	BindButton.TextSize = 13.000
 
 	local Tab = Instance.new("Frame")
 	Tab.Name = "Tab"
 	Tab.Parent = Main
-	Tab.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+	Tab.BackgroundColor3 = Color3.fromRGB(0,0,0)
 	Tab.Position = UDim2.new(0, 5, 0, 30)
 	Tab.Size = UDim2.new(0, 150, 0, 365)
 
@@ -258,11 +258,11 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 		TabButton.Name = text.."Server"
 		TabButton.Text = text
 		TabButton.BackgroundColor3 = Color3.fromRGB(0,0,0)
-	    TabButton.BorderColor3 = Color3.fromRGB(147,112,219)
+	    TabButton.BorderColor3 = Color3.fromRGB(0,0,0)
         TabButton.BorderSizePixel = 3
 		TabButton.Size = UDim2.new(0, 130, 0, 23)
 		TabButton.Font = Enum.Font.PatrickHand
-		TabButton.TextColor3 = Color3.fromRGB(225, 225, 225)
+		TabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 		TabButton.TextSize = 15.000
 		TabButton.TextTransparency = 0.500
 
@@ -270,7 +270,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 		MainFramePage.Name = text.."_Page"
 		MainFramePage.Parent = PageList
 		MainFramePage.Active = true
-		MainFramePage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		MainFramePage.BackgroundColor3 = Color3.fromRGB(0,0,0)
 		MainFramePage.BackgroundTransparency = 1.000
 		MainFramePage.BorderSizePixel = 0
 		MainFramePage.Size = UDim2.new(0, 490, 0, 365)
@@ -356,13 +356,13 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			
 			TextBtn.Name = "TextBtn"
 			TextBtn.Parent = Button
-			TextBtn.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			TextBtn.BackgroundColor3 = Color3.fromRGB(0,0,0)
 			TextBtn.Position = UDim2.new(0, 1, 0, 1)
 			TextBtn.Size = UDim2.new(0, 468, 0, 29)
 			TextBtn.AutoButtonColor = false
 			TextBtn.Font = Enum.Font.PatrickHand
 			TextBtn.Text = text
-			TextBtn.TextColor3 = Color3.fromRGB(225, 225, 225)
+			TextBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 			TextBtn.TextSize = 15.000
 			
 			UICorner_2.CornerRadius = UDim.new(0, 5)
@@ -426,7 +426,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Button.Name = "Button"
 			Button.Parent = Toggle
-			Button.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Button.BackgroundColor3 = Color3.fromRGB(0,0,0)
 			Button.Position = UDim2.new(0, 1, 0, 1)
 			Button.Size = UDim2.new(0, 468, 0, 29)
 			Button.AutoButtonColor = false
@@ -440,13 +440,13 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Label.Name = "Label"
 			Label.Parent = Toggle
-			Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Label.BackgroundColor3 = Color3.fromRGB(0,0,0)
 			Label.BackgroundTransparency = 1.000
 			Label.Position = UDim2.new(0, 1, 0, 1)
 			Label.Size = UDim2.new(0, 468, 0, 29)
 			Label.Font = Enum.Font.PatrickHand
 			Label.Text = text
-			Label.TextColor3 = Color3.fromRGB(225, 225, 225)
+			Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Label.TextSize = 15.000
 
 			ToggleImage.Name = "ToggleImage"
@@ -460,7 +460,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Circle.Name = "Circle"
 			Circle.Parent = ToggleImage
-			Circle.BackgroundColor3 = Color3.fromRGB(227, 60, 60)
+			Circle.BackgroundColor3 = Color3.fromRGB(0,0,0)
 			Circle.Position = UDim2.new(0, 2, 0, 2)
 			Circle.Size = UDim2.new(0, 16, 0, 16)
 
