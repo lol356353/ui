@@ -956,7 +956,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 			Label.BackgroundTransparency = 1.000
 			Label.Size = UDim2.new(0, 470, 0, 20)
-			Label.Font = Enum.Font.PatrickHand
+			Label.Font = Enum.Font.LuckiestGuy
 			Label.TextColor3 = Color3.fromRGB(225, 225, 225)
 			Label.TextSize = 16.000
 			Label.Text = text
